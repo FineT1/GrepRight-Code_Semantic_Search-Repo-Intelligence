@@ -1,0 +1,3 @@
+from ..ingest.clone import validate_url, repo_name
+# ...
+(user.id, repo_name(url), url)      # replaces the url.rstrip("/").split("/")... expression
